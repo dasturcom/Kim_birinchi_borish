@@ -1,0 +1,96 @@
+@import url('https://fonts.googleapis.com/css2?family=Livvic:wght@500;600;700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    height: 100%;
+    scroll-behavior: smooth;
+}
+
+body {
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    background-color: #fff;
+    font-family: 'Livvic', sans-serif;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+.container {
+    width: 100%;
+    max-width: 1240px;
+    margin-right: auto;
+    margin-left: auto;
+    padding-top: 50px;
+    padding-right: 20px;
+    padding-left: 20px;
+}
+
+.title {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.box {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 30px;
+}
+
+.input {
+    width: 350px;
+    display: block;
+    padding: 8px 10px;
+    margin-right: 20px;
+    border: none;
+    border-bottom: 1px solid #000;
+}
+
+.btn {
+    padding: 5px;
+    border: 1px solid royalblue;
+    border-radius: 8px;
+    background-color: royalblue;
+    color: #fff;
+    transition: all 0.5s linear;
+}
+.btn:hover {
+    padding: 5px;
+    border: 1px solid royalblue;
+    border-radius: 8px;
+    background-color: #fff;
+    color: royalblue;
+}
+
+.card {
+    width: 1000px;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    align-items: center;
+}
+
+.card-box {
+    width: 250px;
+    height: 150px;
+    padding: 10px;
+    text-align: center;
+    border: 1px solid #000;
+}
+
+i {
+    font-size: 33px;
+    color: tomato;
+}
+
+.card-piyoda-text > span {
+    display: block;
+}
